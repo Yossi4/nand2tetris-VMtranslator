@@ -19,3 +19,8 @@ make
 # Run the translator
 ./VMtranslator path/to/YourFile.vm
 
+## Notes
+- This project passed all official Nand2Tetris VM translator tests.
+- Works with any Java 8+ installation.
+- No external dependencies required.
+
