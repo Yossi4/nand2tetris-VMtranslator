@@ -18,6 +18,7 @@ make
 
 # Run the translator
 ./VMtranslator path/to/YourFile.vm
+```
 
 ## Notes
 - This project passed all official Nand2Tetris VM translator tests.
