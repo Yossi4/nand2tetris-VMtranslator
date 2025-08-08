@@ -11,23 +11,11 @@ Translates `.vm` virtual machine code files into Hack assembly code `.asm`.
 
 ## Build & Run
 
-### Option 1 — Using Makefile & VMtranslator script (recommended)
+### Using Makefile & VMtranslator script (recommended)
 ```bash
 # Compile the project
 make
 
 # Run the translator
 ./VMtranslator path/to/YourFile.vm
-
-make
-./VMtranslator SimpleAdd.vm
-# Output: SimpleAdd.asm
-
-### Option 2 — Manual Java compilation
-
-# Compile all Java source files
-javac *.java
-
-# Run the translator
-java Main path/to/YourFile.vm
 
